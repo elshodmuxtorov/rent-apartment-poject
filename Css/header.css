@@ -1,0 +1,93 @@
+/* Updated CSS for navbar position at the top */
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 40px;
+    background-color: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 42px;
+}
+
+.navbar ul .logo {
+    width: 135px;
+    height: 54px;
+    margin-right: auto;
+    margin-top: -12px;
+}
+
+.navbar ul a {
+    color: #111111;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar ul a:hover, .navbar ul a.active {
+    text-decoration: underline;
+}
+
+.navbar ul a.contact-link {
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+}
+
+.navbar-btn {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -12px;
+    margin-bottom: 12px;
+}
+
+.navbar-btn:hover {
+    background-color: #cc7a00;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Added gradient background and blue element alignment */
+.parent {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(43, 122, 241, 1) 50%);
+    height: 100vh;
+    position: relative;
+    margin-right: -80px;
+}
