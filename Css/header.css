@@ -1,5 +1,4 @@
-/* Updated CSS for navbar position at the top */
-
+/* Header section start */
 .navbar {
     display: flex;
     justify-content: flex-start;
@@ -84,10 +83,10 @@
     height: 20px;
 }
 
-/* Added gradient background and blue element alignment */
 .parent {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(43, 122, 241, 1) 50%);
     height: 100vh;
     position: relative;
     margin-right: -80px;
 }
+/* Header section end */
