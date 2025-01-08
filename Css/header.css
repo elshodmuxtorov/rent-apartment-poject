@@ -62,12 +62,15 @@
     transition: background-color 0.3s ease;
     margin-top: -12px;
     margin-bottom: 12px;
+    border-radius: 25px;
 }
 
 .navbar-btn:hover {
-    background-color: #cc7a00;
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
 }
-
+.navbar-btn:active{
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+}
 .box {
     width: 40px;
     height: 40px;
@@ -88,5 +91,8 @@
     height: 100vh;
     position: relative;
     margin-right: -80px;
+}
+.header{
+    padding-bottom: 220px;
 }
 /* Header section end */
